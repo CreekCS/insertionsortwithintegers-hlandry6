@@ -1,3 +1,4 @@
+//Harrison Landry
 import java.util.ArrayList;
 import java.util.Scanner;
 import java.io.File;
@@ -51,8 +52,8 @@ public class InsSortInt {
         String filePath = "randInts.txt"; 
         InsSortInt sorter = new InsSortInt(filePath); 
         sorter.sort(); // Sort the list
-        for (int i = 0; i < sorter.intList.size(); i++) {
-            System.out.println(sorter.intList.get(i));
-        }
+        System.out.println(sorter.intList.get(0));
+        System.out.println(sorter.intList.get(sorter.intList.size()-1));
+
     }
 }
